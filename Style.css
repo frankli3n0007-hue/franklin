@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  color: #000;
+  font-family: "Rubik", sans-serif;
+  font-weight: 0;
+  line-height: 1;
+  overflow-x: hidden;
+  background-color: aliceblue;
+}
+.header-title {
+  font-family: cursive;
+  text-align: center;
+
+  background-color: darkblue;
+  color: white;
+  padding: 5rem;
+}
+.tool-link:link,
+.tool-link:visited {
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  color: cornsilk;
+  background-color: rgb(163, 9, 9);
+  margin-top: 2rem;
+  margin-right: 120rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.tool-link:hover,
+.tool-link:active {
+  color: yellow;
+}
+.span-intro {
+  font-size: 6rem;
+  font-weight: 800;
+  text-align: center;
+}
+.profile-heading {
+  font-size: 3rem;
+
+  margin-top: 2rem;
+}
+.text-box {
+  display: flex;
+  flex-direction: column;
+  color: darkblue;
+  content: "";
+  display: block;
+  right: 30%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.image {
+  width: 40%;
+  content: "";
+  display: block;
+  down: -30%;
+  right: -10%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.forms {
+  font-size: 5rem;
+}
+/
